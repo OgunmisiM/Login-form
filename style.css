@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(tree.jpeg) no-repeat;
+    background: url(../images/tree.jpeg) no-repeat;
     font-family: sans-serif;
     background-size: cover;
     background-position: center center;
@@ -28,20 +28,21 @@ body{
 
 .my-form{
     width: 300px;
-    height:350px;
+    height:300px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: #fff;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5));
-    box-shadow: 5px 5px 50px black;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    box-shadow: 5px 5px 30px grey;
     padding: 20px;
+    border-radius: 5px;
 
 }
 
 .form-control {
-    padding: 10px 20px;
+    padding: 10px 5px;
     margin: 5px;
 
 }
@@ -50,7 +51,8 @@ body{
     padding: 5px 10px;
     outline: none;
     border: none;
-    width: 70%;
+    border-radius: 4px;
+    width: 200px;
 }
 
 .button{
@@ -64,5 +66,8 @@ footer{
     text-align: center;
     padding-bottom: 50px;
     font-weight: bold;
+    font-size: 1em;
+    font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
 }
