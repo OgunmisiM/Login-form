@@ -14,7 +14,6 @@ body{
     margin:0 auto;
     overflow: auto;
     padding: 0 40px;
-
 }
 
 .center{
@@ -27,7 +26,7 @@ body{
 }
 
 .my-form{
-    width: 300px;
+    width: 350px;
     height:300px;
     position: absolute;
     top: 50%;
@@ -36,30 +35,48 @@ body{
     color: #fff;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     box-shadow: 5px 5px 30px grey;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 20px 0px;
+    border-radius: 10px;
 
 }
 
 .form-control {
+    width: 100%; 
+    margin-bottom: 10px;
     padding: 10px 5px;
-    margin: 5px;
-
+    margin: auto
 }
 
 .form-control input{
-    padding: 5px 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px; 
     outline: none;
-    border: none;
-    border-radius: 4px;
-    width: 200px;
+    margin: auto;
+
 }
 
+.form-control i{
+    position: absolute;
+}
+
+.icon { 
+	padding: 10px 20px; 
+	color: greenyellow;
+} 
+
+.fas.fa-arrow-right{
+    border: 2px white solid;
+    padding: 7px;
+    border-radius: 4px;
+    text-align: center;
+
+}
 .button{
     width: 50%;
     border-radius: 10px;
     padding: 5px 10px;
-
 }
     
 footer{
@@ -70,4 +87,4 @@ footer{
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-}
+    }
